@@ -1165,20 +1165,12 @@ video {
   flex-grow: 1;
 }
 
-.basis-1\/5 {
-  flex-basis: 20%;
-}
-
 .basis-2\/5 {
   flex-basis: 40%;
 }
 
 .basis-3\/5 {
   flex-basis: 60%;
-}
-
-.basis-4\/5 {
-  flex-basis: 80%;
 }
 
 .border-collapse {
