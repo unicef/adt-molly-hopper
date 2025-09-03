@@ -1,19 +1,19 @@
 {
-  "title": "molly",
+  "title": "molly-twoColumns",
   "languages": {
     "available": [
-      "en"
+      "en", "es"
     ],
     "default": "en"
   },
   "features": {
     "signLanguage": false,
-    "easyRead": false,
-    "glossary": false,
-    "eli5": false,
+    "easyRead": true,
+    "glossary": true,
+    "eli5": true,
     "readAloud": true,
-    "autoplay": false,
-    "describeImages": false,
+    "autoplay": true,
+    "describeImages": true,
     "notepad": false,
     "state": true,
     "characterDisplay": true,

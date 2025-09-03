@@ -840,6 +840,14 @@ video {
   z-index: 9999;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -883,6 +891,10 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .ml-0 {
@@ -1133,10 +1145,6 @@ video {
   max-width: 10rem;
 }
 
-.max-w-5xl {
-  max-width: 64rem;
-}
-
 .max-w-\[350px\] {
   max-width: 350px;
 }
@@ -1147,6 +1155,10 @@ video {
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-none {
+  max-width: none;
 }
 
 .max-w-sm {
@@ -1165,12 +1177,8 @@ video {
   flex-grow: 1;
 }
 
-.basis-2\/5 {
-  flex-basis: 40%;
-}
-
-.basis-3\/5 {
-  flex-basis: 60%;
+.basis-full {
+  flex-basis: 100%;
 }
 
 .border-collapse {
@@ -1282,10 +1290,6 @@ video {
 
 .resize {
   resize: both;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-row-reverse {
@@ -1850,6 +1854,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1961,6 +1970,10 @@ video {
   font-weight: 500;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1979,6 +1992,10 @@ video {
 
 .leading-snug {
   line-height: 1.375;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .text-amber-500 {
@@ -2531,11 +2548,6 @@ video {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
-
-  .sm\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
 }
 
 @media (min-width: 768px) {
@@ -2545,11 +2557,6 @@ video {
 
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 }
 
@@ -2566,12 +2573,20 @@ video {
     right: calc(425px - 1rem);
   }
 
+  .lg\:order-none {
+    order: 0;
+  }
+
   .lg\:ml-0 {
     margin-left: 0px;
   }
 
   .lg\:mr-12 {
     margin-right: 3rem;
+  }
+
+  .lg\:mr-4 {
+    margin-right: 1rem;
   }
 
   .lg\:w-1\/2 {
@@ -2586,8 +2601,20 @@ video {
     width: calc(100vw - 450px);
   }
 
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+  .lg\:basis-2\/5 {
+    flex-basis: 40%;
+  }
+
+  .lg\:basis-3\/5 {
+    flex-basis: 60%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
